@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/portfolio1.css">
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/portfolio1.js" defer></script>
+		<title>portfolio</title>
+	</head>
+
+	<body class="portfolio1">
+		<span id="threeLines" onclick="openNav()">&#9776;</span>
+		<header id="top">
+			<h1>Claire Olmstead</h1>
+			<h2>Web Developer</h2>
+
+			<div id="contact">
+				<address>
+					<a id="num1" href="mailto:viol5229@colorado.edu">email</a>
+					<a href="https://www.instagram.com/claireolmstead/" target="_blank">instagram</a>
+				</address>
+			</div>
+		</header>
+		</div>
+
+		<nav id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#top">Home</a>
+			<a href="#bio">Bio</a>
+			<a href="#resume">Resume</a>
+			<a href="#photos">Photographs</a>
+		</nav>
+		<main>
+			<article id="bio" class="page">
+				<h2>BIO</h2>
+				<div class="flexcontainer">
+					<section id="part">
+						<p id="k">
+							Hello, my name is Claire and I am a student in my third year at CU Boulder.  I am studying Computer Science and Technology Arts and Media.  
+						</p>
+						<p id="k">
+							This website is a product of Web, a class focused on the basics of front-end web development.  It showcases some of our class labs and projects as well as some personal works, found in the "Photographs" section.
+						</p>
+						<p id="k">
+							I am very interested in the concept of web developement.  With that, I hope that this is the first of many websites that have my name in the footer.
+						</p>
+					</section>
+					<img id="part" src="img/me_bike.jpg" alt="me">
+				</div>
+			</article>
+			<article id="resume" class="page">
+				<h2>RESUME</h2>
+				<div class="flexcontainer">
+					<div id="education col">
+						<h3>EDUCATION</h3>
+						<section>
+							<h4>University of Colorado, Boulder</h4>
+							<ul>
+								<li>
+									Expected Date of Graduation: May 2020
+								</li>
+								<li>
+									Major: Computer Science (BA)
+								</li>
+								<li>
+									Minor: Technology Arts and Media
+								</li>
+								<li>
+									GPA: X
+								</li>
+							</ul>
+						</section>
+						<section>
+							<h4>Newport Harbor High School</h4>
+							<ul>
+								<li>
+									Date of Graduation: June 2016
+								</li>
+								<li>
+									High School GPA (4.0 scale): X
+								</li>
+								<li>
+									ACT: X
+								</li>
+							</ul>
+						</section>
+					</div>
+					<div id="work col">
+						<h3>WORK EXPERIECE</h3>
+						<section>
+							<h4>Billabong</h4>
+							<aside>(present)</aside>
+							<ul>
+								<li>Sales Associate</li>
+							</ul>							
+						</section>
+						<section>
+							<h4>TO Media Company</h4>
+								<aside>(present)</aside>
+								<ul>
+									<li>Assistant Publicist</li>
+									<li>Social Media Coordinator</li>
+								</ul>
+						</section>
+						<section>
+							<h4>Yosemite Sierra Summer Camp</h4>
+							<aside>(summer 2017 & 2018)</aside>
+							<ul>
+								<li>Boat Driver</li>
+								<li>Food Service Provider</li>
+							</ul>
+						</section>
+						<section>
+							<h4>City of Newport Beach</h4>
+							<aside>(2013-2014)</aside>
+							<ul>
+								<li>Lifeguard</li>
+								<li>Swim Instructor</li>
+							</ul>							
+						</section>
+					</div>
+					<div id="involvement col">
+						<h3>INVOLVEMENT</h3>
+						<section>
+							<h4>Delta Gamma Fraternity</h4>
+							</ul>							
+						</section>
+						<section>
+							<h4>CU Boulder Panhellenic</h4>
+							<ul>
+								<li>Panhellenic Judicial Board Member</li>
+							</ul>
+						</section>
+						<section>
+							<h4>The Delta Gamma Foundation</h4>
+						</section>						
+					</div>
+				</div>
+				<div id="references">
+					<h3>REFERENCES</h3>
+					<ul>
+						<li>Jane Doe, Yosemite Sierra Summer Camp, Executive Director, <a href="milto:fakemail@gmail.com">fakemail@gmail.com</a></li>
+
+						<li>Jane Doe, TO Media Company, Senior Publicist, <a href="milto:fakemail@gmail.com">fakemail@gmail.com</a></li>
+
+						<li>John Doe, NHHS, Teacher, <a href="milto:fakemail@gmail.com">fakemail@gmail.com</a></li>
+						</ul>
+				</div>
+			</article>
+			<article id="photos" class="page">
+				<h2>PHOTOS</h2>
+				<div id="slideshow">
+					<div class="slide">
+						<img id="mySlides" src="img/slide1.jpg" alt="s1">
+					</div>
+					<div class="slide">
+						<img id="mySlides" src="img/slide2.jpg" alt="s2">
+					</div>
+					<div class="slide">
+						<img id="mySlides" src="img/slide3.jpg" alt="s3">
+					</div>
+					<div class="slide">
+						<img id="mySlides" src="img/slide4.jpg" alt="s4">
+					</div>
+					<div class="slide">
+						<img id="mySlides" src="img/slide5.jpg" alt="s5">
+					</div>
+					<div class="slide">
+						<img id="mySlides" src="img/slide6.jpg" alt="s6">
+					</div>
+					<div class="slide">
+						<img id="mySlides" src="img/slide7.jpg" alt="s7">
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<div style="text-align:center">
+				  	<span class="dot" onclick="currentSlide(1)"></span> 
+				  	<span class="dot" onclick="currentSlide(2)"></span> 
+				  	<span class="dot" onclick="currentSlide(3)"></span> 
+				  	<span class="dot" onclick="currentSlide(4)"></span> 
+				  	<span class="dot" onclick="currentSlide(5)"></span> 
+				  	<span class="dot" onclick="currentSlide(6)"></span> 
+				  	<span class="dot" onclick="currentSlide(7)"></span> 
+				</div>
+			</article>
+		</main>
+		<footer>Virginia Claire Olmstead<br>Web Fall 2018</footer>
+	</body>
+</html>
